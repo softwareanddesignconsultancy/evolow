@@ -7,7 +7,7 @@ import reactLogo from './images/logo.svg';
 import {CLIENT_VERSION, REACT_VERSION, SERVER_URL} from './config';
 import 'whatwg-fetch';
 import Footer from "./Footer";
-
+import Home from "./Home";
 class App extends Component {
 
     state = {
@@ -65,6 +65,7 @@ class App extends Component {
                                 }) : null}
                             </ul>
                         </div>
+                        <Home />
                     </section>
 
                 </div>
